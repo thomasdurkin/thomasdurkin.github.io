@@ -46,7 +46,7 @@ h6 {
 	text-decoration: none #000000 solid;
 	text-decoration-thickness: auto;
 	width: 100%;
-	max-width: 460px;
+	max-width: 350px;
 	position: relative;
 	cursor: pointer;
 	transform: rotate(-2deg);
@@ -79,6 +79,18 @@ h6 {
 	  padding: .75rem 3rem;
 	  font-size: 1.25rem;
 	}
+  }
+
+
+/*--------------------------------------------------------------
+# Certification Button
+--------------------------------------------------------------*/
+  .button-cert{
+	padding-left: 10px;
+  }
+  .button-cert:hover {
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(35%); /* Chrome 19+ & Safari 6+ */
   }
 
 /*--------------------------------------------------------------
